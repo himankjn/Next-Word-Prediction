@@ -47,6 +47,8 @@ Finally, After model building I used R shinyApp interface to integrate the katz'
 ## Resources and files:
 ## [Project Github Repo](https://github.com/himankjn/JHU-NLP-Capstone)
 
+## Github Pages:
+## [GitPages](https://himankjn.github.io/WordPrediction/)
 
 
 # Thank You
