@@ -1,0 +1,58 @@
+Data Science Capstone, JHU
+========================================================
+author: Himank Jain
+date: October 5, 2019
+autosize: true
+
+![image1](swiftjhu.png)
+
+**John Hopkins University**
+
+**Swiftkey**
+
+**Coursera**
+
+========================================================
+# **About The Project**
+- This Project requires the application of knowledge gained from 9 courses in Data Science Specialization by John Hopkins University.
+- The Final Application is created in Rstudio's ShinyApp.
+- It predicts the next word in a sentence typed by the user.
+
+The Specialization Course can be found at [JHU Data Science](https://www.coursera.org/specializations/jhu-data-science)
+
+The Word Prediction App can be found at [Word Prediction App](https://himankjn.shinyapps.io/ShinyApp/)
+
+The Source Code and Project files can be found at [Github](http://himankgithub.com)
+
+
+
+========================================================
+# **Data**:
+- The Data is provided by Switkey.
+- It comes from HC Corpora Corpus.
+- It can be downloaded from [here](https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip)
+- The Data comes in 4 different languages.
+- The three sources of data used in the analysis are blogs, news, and twitter.
+```{r}
+
+```
+- Due to huge file size and limited resources availability only 20% of sample from each source was used for modelling.
+
+
+========================================================
+# **About The Model**
+- This is a Prototype text processing Application that is used to predict next word in a sentence using Katz's back off model.
+- It's part of the **John Hopkins University** Data Science capstone project from Coursera in collaboration with **Switkey** 
+- The Project uses Katz's Ngram Back Off model to predict the next word in a sentence.
+- Katz back-off is a generative n-gram language model that estimates the conditional probability of a word given its history in the n-gram.
+- Find out more about katz's back off model [here](https://en.wikipedia.org/wiki/Katz%27s_back-off_model)
+
+
+========================================================
+# **Application Overview**
+- The Application can be found [here](https://himankjn.shinyapps.io/JHU_Capstone/)
+- It utilizes Ngram model to predict next word in a sentence entered by the user. The predictions are based on Swiftkey HC Corpora datasets.
+- The instruction for application use are on application page [here](https://himankjn.shinyapps.io/JHU_Capstone/)
+- The Application predicts the next word in a sentence that you enter.
+- To minimize Size and Runtime of the model some accuracy had to be sacrificed.
+

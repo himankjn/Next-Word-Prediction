@@ -1,0 +1,12 @@
+name: JHU_Capstone
+title: JHU_Capstone
+username:
+account: himankjn
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1301427
+bundleId: 2483470
+url: https://himankjn.shinyapps.io/JHU_Capstone/
+when: 1570615888.81276
+asMultiple: FALSE
+asStatic: FALSE
