@@ -2,7 +2,9 @@
 title: "Data Science Capstone"
 author: "Himank Jain"
 date: "24/09/2019"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 # N Gram model for word prediction:
@@ -72,6 +74,8 @@ library(plotrix)
 ## Dataset
 
 The data is provided by JHUCapstone Course in Data Science. It can be downloaded from [here](https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip)
+
+**NOTE:** Since the data files are relatively big, they are not present in this repository. Download them from the link above.
   
 ## Reading files & Sampling:
 ```{r,warning=F}
@@ -317,7 +321,7 @@ We have already Built 1-gram,2-gram, 3-gram and 4-gram dictionaries for our mode
 
 
 # Predictive Model :
-Tasks to accomplish
+Tasks Accomplished:
 
 
 * Build a predictive model based on the previous data modeling steps - you may combine the models in any way you think is appropriate.
@@ -331,25 +335,13 @@ Tasks to accomplish
 
 #### A function called ngrams is created in prediction.R file which predicts next word given an input string. It uses output from ngram.R file 
 
-**NOTE:** Since the outputs from tokenizationandcleaning.R and ngram.R files are relatively big, they do not exist in this repository. You will have to run the code from both files to generate following R objects which are required for final prediction.
-
-* toks.rds
-
-* bidf.rds
-
-* tridf.rds
-
-* tetradf.rds
-
-* pentadf.rds
-
 
 
 # Final Application, Documentation & Resources:
 Finally, After model building I used R shinyApp interface to integrate the katz's back off model to build a predictive application that is hosted on shinyapps.io
 
 ## **Applicaton: **
-## [Final Application](https://himankjn.shinyapps.io/JHU_Capstone/)\
+## [Final Application](https://himankjn.shinyapps.io/JHU_Capstone/)
 
 ## **Application Image Demo:**
 ## ![image](appdemo.PNG)
