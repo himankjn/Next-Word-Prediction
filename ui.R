@@ -5,8 +5,7 @@ library(shiny)
 
 
 shinyUI(fluidPage(
-    
-    
+
     titlePanel("Word Prediction by Katz's Back Off Model"),
     mainPanel(
         h4("This is a Prototype text processing Application that is used to predict next word in a sentence using Katz's back off model."),
@@ -47,43 +46,32 @@ shinyUI(fluidPage(
         tabPanel("BiGram",
         br(),
         h1("Most Frequently Occuring Bigrams."),
-        sidebarLayout(
-            sidebarPanel(
-                
-            ),
+  
             mainPanel(
-                
-                
+                img(src='2.png'),
             )
-        )
+
         
         ),
         tabPanel("TriGram",
                  br(),
                  h1("Most Frequently Occuring Trigrams."),
-                 sidebarLayout(
-                     sidebarPanel(
-                         
-                     ),
+                 
                      mainPanel(
+                         img(src='3.png'),  
                          
-                         
-                     )
                  )
                  
         ),
         tabPanel("TetraGram",
                  br(),
                  h1("Most Frequently Occuring Tetragrams."),
-                 sidebarLayout(
-                     sidebarPanel(
-                         
-                     ),
+                
                      mainPanel(
                          
-                         
+                         img(src='4.png'),
                      )
-                 )
+                 
                  
         )  
     )
