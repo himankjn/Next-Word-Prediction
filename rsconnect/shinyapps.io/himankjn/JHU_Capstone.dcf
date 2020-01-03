@@ -5,8 +5,8 @@ account: himankjn
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1301427
-bundleId: 2483470
+bundleId: 2704027
 url: https://himankjn.shinyapps.io/JHU_Capstone/
-when: 1570615888.81276
+when: 1578042019.92041
 asMultiple: FALSE
 asStatic: FALSE
