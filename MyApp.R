@@ -1,10 +1,14 @@
 
 
 library(shiny)
+library(xml2)
+library(rlang)
+library(dplyr)
+library(stringi)
+library(stringr)
 
 
-
-shinyUI(fluidPage(
+ui<-fluidPage(
 
     theme='boot.css',
     span(titlePanel("Word Prediction by Katz's Back Off Model"),style="color:purple"),
@@ -78,5 +82,18 @@ shinyUI(fluidPage(
     )
     )
     )
-)
 
+
+source("prediction.R")
+
+server<- function(input, output) {
+  
+  
+  output$prediction<-renderText({
+    ngrams(input$box1)
+  })
+  
+  
+}
+
+shinyApp(ui = ui, server = server)
