@@ -29,6 +29,12 @@ Click [here](https://himankjn.shinyapps.io/JHU_Capstone/) to directly go to the 
 
 ![tetrapng](4.png)
 
+# R Dependencies:
+
+c("dplyr", "rlang","stringi","stringr","tm")
+Download Dependencies by following one liner:
+sudo R -e 'install.packages(c("dplyr", "rlang","stringi","stringr","tm"), lib="/usr/local/lib/R/site-library")' 
+
 # Final Application, Documentation & Resources:
 
 
