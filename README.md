@@ -31,7 +31,13 @@ Click [here](https://himankjn.shinyapps.io/JHU_Capstone/) to directly go to the 
 
 # R Dependencies:
 
+sudo apt-get install libcurl4-openssl-dev
+
+sudo apt-get install libxml2-dev
+
 sudo apt-get install libxml2
+
+sudo apt-get install libssl-dev 
 
 c("dplyr", "rlang","xml2","stringi","stringr","tm")
 
